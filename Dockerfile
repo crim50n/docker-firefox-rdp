@@ -1,5 +1,5 @@
 #Firefox via RDP
-FROM lsiobase/ubuntu-gui:amd64-latest
+FROM lsiobase/gui:latest
 
 #########################################
 ##        ENVIRONMENTAL CONFIG         ##
