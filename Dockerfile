@@ -20,4 +20,4 @@ RUN apt-get update \
 && rm -rf /tmp/* /var/tmp/* \
 && rm -rf /var/lib/apt/lists/*
 
-COPY root /
+COPY root.firefox /
