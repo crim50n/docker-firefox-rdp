@@ -8,8 +8,8 @@ fdmove -c 2 1
 if { s6-svwait -t 10000 -U /var/run/s6/services/openbox/ }
 
 # Drop privileges and set env
-s6-setuidgid chromium
+s6-setuidgid abc
 s6-env DISPLAY=:1 HOME=/config
 
-# Execute Firefox
+# Execute Chromium
 /usr/bin/chromium-browser
