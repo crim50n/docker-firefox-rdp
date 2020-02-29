@@ -14,7 +14,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
 && apt-get -y upgrade \
 && apt-get install -qy --no-install-recommends \
-   chromium-browser \
+   chromium-browser xterm \
 && apt-get clean -y \
 && apt-get autoremove -y \
 && rm -rf /tmp/* /var/tmp/* \
